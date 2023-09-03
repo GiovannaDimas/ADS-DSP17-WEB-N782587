@@ -1,0 +1,106 @@
+Tag's HTML
+
+Em desenvolvimento web, as tags HTML (Hypertext Markup Language) são elementos fundamentais usados para estruturar e formatar o conteúdo de uma página da web.
+As tags HTML são códigos inseridos no código-fonte de uma página da web para definir a estrutura e o significado dos diferentes elementos presentes nessa página.
+Elas são interpretadas pelos navegadores da web para renderizar o conteúdo da página de acordo com as instruções fornecidas pelas tags.
+
+Cada tag HTML é composta por um nome entre colchetes angulares < e >, que identifica a função da tag, (exceto algumas tags como por exemplo LINK e IMG
+no qual nao tem fechamento, entre outras ) e pode conter atributos que fornecem informações adicionais sobre como a tag deve ser interpretada ou exibida.
+
+Um documento HTML padrão tem a seguinte estrutura básica:
+
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE-edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Document</title>
+	</head>
+	<body>
+
+        </body>
+</html>
+
+Entendendo as tags mencionadas acima:
+<!DOCTYPE html> - Esta tag informa ao navegador a versão do HTML que está sendo utilizada
+<html></html> - Esta tag é a básica de uma estrutura HTML. Nela contém todos os elementos do documento, portanto ele deve
+iniciar e finalizar com ela
+<head></head> - Ela faz a delimitação do cabeçalho. Não possui nenhum valor visivel mas é capaz de transmitir informações
+ao navegador para uma boa apresentação do documento
+<title></title> - Define o titulo da página da guia ou janela que aparecerá na aba
+<meta/> - Permite a inserção de metadados no documento que garante a compatibilidade do código com o padrão de caracteres latino americano
+<body></body> - Representa o corpo do documento, todos os elementos visiveis do site são inseridos dentro desta tag
+
+
+Outros exemplos de tags:
+<header></header> - Da mesma forma que o "head" essa tags define um cabeçalho, porém este cabeçalho pode ser utilizado dentro de outras sessões.
+É importante não confundir as duas tags por terem nomemclatura parecida.
+<main></main> - Representa o conteúdo principal do corpo do documento, todo conteúdo relacionado com o tópico central da pagina ou funcionalidade
+central da aplicação.
+<footer></footer> - Define um rodapé para a página
+<section></section> - Define uma sessão para a página
+<table> <tr> <td> - Cria tabelas, linhas de tabela e células de tabela, respectivamente.
+<p></p> - Define um parágrafo de texto.
+<a> - Cria um link para outra página ou recurso.
+<b></b> – Deixa conteúdo em negrito.
+<i></i> – Deixa conteúdo em em itálico.
+<br/> – Essa tag não precisa de fechamento, tem a função de quebra de linha.
+<hr/> – Essa tag não precisa de fechamento, forma uma linha horizontal.
+<span></span> – Tem funcionalidade e caracteristica parecida com o paragrafo, porém costumam ser utilizadas apenas para pequenas informações
+ou formatação de conteiner.
+<img>, <audio>, <audio> - São usadas para incorporar mídia, como imagens, áudio e vídeo, nas páginas da web
+<h1> <h2>, ..., <h6> - Define cabeçalhos de diferentes níveis, normalmente utilizadas em titulo.
+<ul> <ol> <li> - Cria listas não ordenadas (com marcadores), listas ordenadas (numeradas) e itens de lista, respectivamente.
+<div></div> - Define uma divisão da página
+<script></script> - É usada para incorporar código JavaScript nas páginas da web, permitindo a criação de interatividade dinâmica
+<button></button> - Utilizado para a criação de um botão de envio para o formulário
+<option></option> - Utilizado para listar ítens individuais em uma lista de opções.
+<link> - É usada para vincular recursos externos a uma página da web. Geralmente para vincular arquivos de estilo (CSS), mas também pode ser usada
+para vincular outros tipos de recursos,como feeds RSS, ícones de favoritos e pré-carregamento de recursos.
+<blockquote> - Cria um bloco de citação.
+<input> - Cria campos de entrada, como caixas de texto, botões de rádio e caixas de seleção.
+<!---teste---> - Desta forma efetuamos um comentário no código HTML
+
+As tags HTML servem como blocos de construção para criar páginas da web, definindo a estrutura, o significado e a aparência básica do conteúdo.
+Elas colaboram com o CSS e o JavaScript para criar experiências interativas e atraentes na web.
+
+
+ATRIBUTOS:
+
+Os atributos das tags HTML fornecem informações adicionais sobre como uma determinada tag deve ser interpretada ou exibida. Os atributos são
+inseridos dentro das tags, geralmente na forma de pares nome-valor. A maioria das tags possuem seus atributos, porém existem alguns que são
+genéricos e podem ser utilizados na maioria das tags. Existem muitos outros atributos específicos para atender às necessidades de cada elemento HTML.
+Aqui estão alguns exemplos de atributos comuns e suas finalidades:
+
+class – Atribui uma classe ao elemento.
+id – Atribui um id ao elemento (sendo o id algo único).
+style – Permite incluir elementos CSS (estilos) dentro da tag.
+lang – Define o idioma principal do elemento.
+title – Define o título do elemento.
+alt – Define um texto alternativo, é muito utilizado em imagens por exemplo.
+hidden – Oculta o elemento.
+align – Permite definir o alinhamento desse elemento, por exemplo: right, center, left e justify
+width – Define uma largura para o elemento;
+height – Define uma altura para o elemento.
+href - Usado em tags como <a> e <link> para especificar um URL de destino
+src - Usado em tags como <img> e </script> para especificar a origem de recursos, como imagens e scripts.
+target- Usado em tags como <a> para definir onde o link deve ser aberto (por exemplo, em uma nova janela).
+type - Define o tipo de mídia ou conteúdo para recursos externos, como em <link> ou </script>.
+placeholder - Usado em campos de entrada para fornecer um texto de exemplo ou indicação.
+
+CONCLUSÃO:
+Em conclusão, as tags HTML desempenham um papel fundamental no desenvolvimento de páginas da web.
+Elas são os blocos de construção essenciais que permitem estruturar, formatar e definir o significado do conteúdo de uma página.
+As tags HTML possibilitam a criação de elementos como textos, imagens, links, formulários, tabelas e mais, que combinados formam uma experiência interativa e informativa para os usuários.
+
+Através de atributos específicos, as tags HTML podem ser personalizadas para atender às necessidades de estilização, layout e interatividade.
+Isso possibilita a separação clara entre conteúdo e apresentação, permitindo que o CSS cuide da aparência visual enquanto as tags HTML focam na estrutura e no significado semântico.
+
+
+REFERENCIAS: 
+
+Site: www.w3schools.com/tags/. Acesso em 21 de Agosto de 2023.
+Site: www.w3c.br/CursoHTML5/html5-web. HTML5 Curso W3C Escritório Brasil. Arquivo em PDF - 106 paginas. Disponivel em: www.w3c.br/pub/Cursos/CursoHTML5/html5-web.pdf. Acesso em 21 de Agosto de 2023.
+Livro: HTML5: a Linguagem de Marcação que Revolucionou a Web - por Maurício Samy Silva (Autor) Editora Novatec 2ª edição publicado em 12 novembro 2014
+Livro: HTML5 e CSS3: Domine a web do futuro - EditoraCasa do Código (16 abril 2014)

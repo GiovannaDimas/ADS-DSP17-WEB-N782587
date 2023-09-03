@@ -1,0 +1,121 @@
+HTML - Hyper Text Makup Language
+
+O Html quer dizer linguagem de marcação de hyper texto, ele é o responsavel por dizer ao navegador como o conteúdo vai ser estruturado
+ele pega o conteúdo "cru" e organiza na tela, sem o HTML a página web seria como um arquivo txt bem básico. Mas não é só
+de formatação que o html é útil, se a pagina web tem imagens é o HTML que define como ela será apresentada, ou se tem tabela é ele também que
+explica ao navegador como ela é montada. Se uma pagina contém meta dados para outras ferramentas é o html que cuida disso.
+
+Cada página existente na internet é um documento em HTML ou um documento dinamico que gera um HTML para o navegador a partir do que está escrito
+no documento o navegador irá agregar outros elementos na página, sejam eles imagens, sons ou videos, mas o texto e os links que ligam os documentos
+são criados com HTML, sendo assim o HTML também é uma linguagem e nele são utilizadas regras para organizar aquilo que queremos dizer, essas regras e
+os elementos semanticos do HTML nós chamamos de TAGS que é usado para formar qualquer objeto identificado como uma lista,parágrafo, imagens etc, o navegador
+entende essas marcações que são invisiveis para o usuário e transforma o documento no que chamamos de página.
+É importante ressaltar que o HTML é uma coisa e o CSS é outra o HTML pode até definir alguns elementos de apresentação, mas ele é uma linguagem estrutural
+ou seja, marca os elementos que serão mostrados em blocos ou marca os elementos importantes no texto como ênfase. O CSS cuida do aspecto visual e explica como
+o elemento estrutural deverá ser exibido, é aonde podemos dizer ao navegador que um titulo por exemplo é verde. No começo da web era a função do HTML especificar
+a fonte de um texto por exemplo com a tag <font> ou mostrar um texto piscando com a tag <blink> mas aos poucos foi feita uma separação maior entre o HTML e o CSS
+
+Hoje em dia se queremos especificar a fonte utilizada no documento é utilizado o CSS para isso, se o HTML é hoje uma parte fundamental das paginas web é pela sua
+criação que foi feita pelo Tim Berners-Lee, foi ele quem pegou a linguagem de marcação genérica SGML do Cern e usou como padrão para criar o html em 1989, foi por
+isso também que ele projetou o navegador e um servidor que entendesse o HTML, em 1994 o HTML já foi ganhando muitos elementos novos e nascia o HTML 2.0 e desde
+então a evolução não parou mais, atualmente a linguagem já está na versão 5.
+O HTML5 trouxe uma série de melhorias e recursos em comparação com as versões anteriores do HTML. Algumas das principais diferenças incluem:
+
+- Nova Sintaxe: O HTML5 introduziu uma sintaxe mais limpa e simplificada, o que facilitou a leitura e a escrita do código HTML.
+- Estrutura Semântica: O HTML5 trouxe novos elementos semânticos, como <header>, <nav>, <article>, <section> e <footer>, que ajudam a descrever a estrutura e o propósito das diferentes partes do conteúdo de uma página.
+- Áudio e Vídeo: O HTML5 introduziu as tags <audio> e <video> para incorporar conteúdo de áudio e vídeo diretamente nas páginas, eliminando a necessidade de plugins externos como o Flash.
+- Canvas e Gráficos: A tag <canvas> permite criar gráficos, desenhos e animações diretamente no navegador usando JavaScript, sem a necessidade de plugins.
+- Formulários Melhorados: O HTML5 trouxe novos tipos de campos de formulário, validação de entrada, seletores de data e hora, além de suporte para campos de entrada de email e URL.
+- Armazenamento Local: O HTML5 introduziu APIs de armazenamento local, como o localStorage e o sessionStorage, que permitem que os sites armazenem dados no navegador do usuário para uso posterior.
+- Geolocalização: O HTML5 introduziu a capacidade de acessar a localização geográfica do usuário por meio do JavaScript, permitindo que os sites ofereçam conteúdo e serviços personalizados com base na localização.
+- WebSockets e Comunicação Assíncrona: O HTML5 trouxe suporte para WebSockets, que são canais de comunicação bidirecional entre o navegador e o servidor, permitindo a atualização em tempo real e a interação assíncrona.
+- Offline e Armazenamento de Cache: Com a API de Cache do HTML5, os desenvolvedores podem criar aplicativos da web que funcionam offline, armazenando recursos em cache para acesso posterior.
+- Acesso a Dispositivos: O HTML5 permite que os aplicativos da web acessem recursos do dispositivo, como a câmera e o microfone, facilitando a criação de aplicativos mais ricos e interativos.
+
+
+Navegadores e Seus Motores de Renderização
+
+Os navegadores da web representam a janela de acesso ao vasto mundo da internet, permitindo que os usuários interajam com conteúdos online. Cada navegador é construído em torno de um motor de renderização, uma peça fundamental que
+interpreta o código HTML, CSS e JavaScript de uma página da web e o traduz em uma visualização interativa.
+A história dos navegadores remonta a Tim Berners-Lee, o pioneiro que criou o primeiro navegador chamado World Wide Web em 1990, com ja citado anteriormente o criado também do HTML. Desde então, testemunhamos uma evolução contínua.
+O Navegador Mosaic, lançado em 1992, marcou o início da experiência gráfica. A Microsoft trouxe o Internet Explorer, enquanto a NETSCAPE liberou seu código como open source, levando à criação do navegador Mozilla.
+
+Opera:
+Desenvolvido pela Opera Software, o navegador Opera executa diversas tarefas relacionadas à internet, desde a exibição de websites até o gerenciamento de emails e downloads de arquivos. Ele está disponível em dispositivos móveis e desktops, funcionando em sistemas operacionais como Linux e Windows.
+
+Mozilla Firefox:
+Este navegador de código aberto foi desenvolvido pela Mozilla Foundation com foco na leveza, segurança e extensibilidade. O Mozilla Firefox utiliza o motor de layout Gecko, projetado para suportar os padrões da web.
+
+Internet Explorer:
+Inicialmente produzido pela Microsoft, o Internet Explorer foi o navegador padrão do ambiente Windows. Ele utiliza o motor Blink.
+
+Netscape Navigator:
+Esse browser, criado pela Netscape, exibe todas as características de um navegador moderno.
+
+
+Alguns dos principais motores de renderização são:
+
+Blink:
+Baseado no WebKit, é conhecido por sua velocidade e eficiência, oferecendo suporte às mais recentes tecnologias e padrões da web.
+
+WebKit:
+Desenvolvido pela Apple e utilizado no navegador Safari, o WebKit tem desempenho otimizado para dispositivos da Apple.
+
+Trident:
+Usado pelo antigo Internet Explorer, o Trident enfrentou problemas de compatibilidade com padrões da web e tecnologias mais recentes. Foi substituído pelo Microsoft Edge, baseado no Blink.
+
+EdgeHTML (antigo Microsoft Edge):
+O EdgeHTML também enfrentou desafios de compatibilidade com padrões da web e foi substituído pelo Microsoft Edge baseado no Blink.
+
+
+Visto que os motores de renderização são os componentes internos dos navegadores responsáveis por processar o código de uma página da web e transformá-lo em uma representação visual que os usuários podem ver e interagir. Cada navegador
+possui seu próprio motor de renderização, que influencia a forma como as páginas são exibidas e como as interações ocorrem.
+Ao longo dos anos, uma variedade de motores de renderização foi desenvolvida por diferentes empresas e organizações. Isso resultou em uma gama diversificada de navegadores, cada um com seu próprio conjunto de recursos,
+desempenho e compatibilidade com padrões da web. O motor de renderização de um navegador pode afetar diretamente a experiência do usuário. Navegadores com motores de renderização eficientes podem oferecer carregamento rápido de páginas,
+renderização suave de elementos visuais e execução responsiva de scripts. Por outro lado, navegadores com motores menos otimizados podem apresentar atrasos e dificuldades de renderização.
+
+Desenvolvedores web precisam considerar a diversidade de motores de renderização ao criar sites. Testar a compatibilidade em diferentes navegadores e garantir que os recursos se comportem consistentemente é fundamental para fornecer uma experiência uniforme aos usuários.
+
+
+Conclusão
+A introdução do HTML5 trouxe uma revolução na experiência online e simplificou significativamente a maneira como os usuários interagem na internet. Esse avanço tecnológico trouxe consigo uma série de recursos e funcionalidades inovadoras.
+
+A evolução dos navegadores também desempenhou um papel crucial nesse cenário, aprimorando as interações online e moldando a apresentação gráfica. Cada mecanismo de renderização influencia diretamente a forma como navegamos na web, tornando
+a experiência de navegação ainda mais diversificada e dinâmica.
+
+
+Referências:
+
+Sites como o Mozilla Developer Network (MDN) (https://developer.mozilla.org/pt-BR/), que oferece documentação completa sobre tecnologias web, incluindo navegadores e motores de renderização.
+  
+Livro: HTML 5, A linguagem de maração que revoluciou na web 
+Autor: Mauricio Samy Silva.   
+Publicação: 14 de novembro de 2019 
+Disponivel em: 
+https://books.google.com.br/books?hl=pt-BR&lr=&id=tDG-DwAAQBAJ&oi=fnd&pg=PT4&dq=o+que+%C3%A9+html5&ots=mk7q31a4l_&sig=LEwEI1_SKyvYGa85O7jeg3_p2gk#v=onepage&q=o%20que%20%C3%A9%20html5&f=false  
+
+
+Livro: Fundamentos de HTML5 e CSS3 
+Autor: Mauricio Samy Silva.   
+Publicação: 09 de outubro de 2018 
+Disponivel em: 
+https://books.google.com.br/books?hl=pt-BR&lr=&id=ZyJyDwAAQBAJ&oi=fnd&pg=PT4&dq=o+que+%C3%A9+html5&ots=L2CjNmT_8j&sig=Y1QuwXrVjGA_KURkEY8LvecwVTc#v=onepage&q=o%20que%20%C3%A9%20html5&f=false 
+
+Livro: HTML5: Up and Running de Mark Pilgrim
+Autor: Mark Pilgrim
+Ano de Publicação: 2010
+https://www.google.com.br/books/edition/HTML5_Up_and_Running/Mk3sW0on7OAC?hl=pt-BR&gbpv=0
+
+HTML5 for Web Designers de Jeremy Keith e Rachel Andrew
+Autores: Jeremy Keith e Rachel Andrew
+Ano de Publicação: 2010
+https://www.google.com.br/books/edition/HTML5_for_Web_Designers_Second_Edition_2/imlgvgEACAAJ?hl=pt-BR
+
+Livro: Web Design Responsivo: Páginas adaptáveis para todos os dispositivos
+Autor: Ethan Marcotte
+Ano de Publicação: 2016
+
+
+Livro: CSS Grid Layout: Simplificando layouts complexos
+Autor: Ricardo Sanches
+Ano de Publicação: 2019
